@@ -1,0 +1,214 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e8e8e8;
+  height: 100vh;
+  display: flex;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #473451;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #ba78dc;
+}
+
+p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #7d7681;
+}
+
+article {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 6px 12px 12px hsl(0deg 0% 0% / 0.1);
+}
+
+.profile-picture {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #ddb4f2;
+  border-radius: 100%;
+}
+
+.testimonials {
+  /* padding-block: 2rem; */
+  width: 80rem;
+  margin: auto;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-row-span-2 {
+  grid-row: span 2;
+}
+
+.article-color-one {
+}
+
+.article-color-two {
+  background: #44415a;
+}
+
+.article-color-two h1 {
+  color: #ffffff;
+}
+
+.article-color-two h2 {
+  color: #aca3ee;
+}
+
+.article-color-two p {
+  color: #e3e2ed;
+}
+
+.article-color-three {
+  background: #fcf7ff;
+}
